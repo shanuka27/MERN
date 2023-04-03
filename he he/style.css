@@ -1,0 +1,39 @@
+.button-select {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eee;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-select option {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .button-select option:hover {
+    background-color: #ddd;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
